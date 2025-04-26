@@ -1,0 +1,3 @@
+$path = (Get-Item -Path ".").FullName -replace "\\", "/"
+Set-Clipboard -Value $path
+Write-Host "Скопировано: $path"
